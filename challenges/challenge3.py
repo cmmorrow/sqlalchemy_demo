@@ -5,6 +5,8 @@ from db import engine
 # Instantiate a new Session object which serves as the interface to the database.
 sess = Session()
 
+#************** Be sure to have completed the Albums and Tracks tables before starting this challenge! **************
+
 # Insert the Jamiroquai album Travelling Without Moving into the database along with all of its tracks.
 # Use 1 for mediatypeid and genreid for the sake of simplicity, and use 0.99 for unitprice.
 # For composer and milliseconds, use the following page:
